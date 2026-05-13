@@ -4,7 +4,6 @@ dist/
 .vite/
 *.bak
 _enc.txt
-赞赏码.jpg
 gen_files.py
 gen_full.py
 gen_sidebar.py
