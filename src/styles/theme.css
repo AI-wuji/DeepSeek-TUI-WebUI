@@ -1,0 +1,69 @@
+/* === 鏃犳瀬鍐涘洟 路 DeepSeek WebUI / 鍏ㄥ眬涓婚 === */
+:root {
+  --bg-primary: #FAF7F2;
+  --bg-card: #FFFFFF;
+  --bg-deeper: #F0EBE3;
+  --border-color: #E8E0D3;
+  --text-primary: #2D2420;
+  --text-secondary: #6B5F56;
+  --text-tertiary: #9B8E85;
+  --accent: #E8742A;
+  --accent-dim: #C8953B;
+  color: var(--text-primary);
+}
+
+html.dark, .dark {
+  --bg-primary: #1A1410;
+  --bg-card: #241C16;
+  --bg-deeper: #0E0C0A;
+  --border-color: #3D3028;
+  --text-primary: #FFFFFF;
+  --text-secondary: #E0E0E0;
+  --text-tertiary: #C0C0C0;
+  --accent: #E8742A;
+  --accent-dim: #A67B2E;
+  color: var(--text-primary);
+}
+
+/* 鏆楄壊妯″紡鍏ㄥ眬鏂囧瓧鐧借壊 */
+html.dark, .dark * {
+  color-scheme: dark;
+}
+html.dark, .dark .msg-md,
+html.dark, .dark .msg-md *,
+html.dark, .dark .msg-content,
+html.dark, .dark .msg-header,
+html.dark, .dark .msg-name,
+html.dark, .dark .msg-time,
+html.dark, .dark .session-title,
+html.dark, .dark .session-time,
+html.dark, .dark .empty-greeting,
+html.dark, .dark .empty-hint,
+html.dark, .dark .top-bar-title,
+html.dark, .dark .top-bar-sub,
+html.dark, .dark .logo-text,
+html.dark, .dark .input-box,
+html.dark, .dark .setting-label,
+html.dark, .dark .setting-hint {
+  color: var(--text-primary) !important;
+}
+html.dark, .dark .msg-time,
+html.dark, .dark .session-time,
+html.dark, .dark .top-bar-sub,
+html.dark, .dark .empty-hint,
+html.dark, .dark .setting-hint {
+  color: var(--text-tertiary) !important;
+}
+html.dark, .dark .msg-md :deep(h1),
+html.dark, .dark .msg-md :deep(h2),
+html.dark, .dark .msg-md :deep(h3) {
+  color: var(--text-primary) !important;
+}
+html.dark, .dark .setting-label,
+html.dark, .dark .setting-label span,
+html.dark, .dark .setting-hint {
+  color: var(--text-primary) !important;
+}
+html.dark, .dark .setting-hint {
+  color: var(--text-tertiary) !important;
+}
